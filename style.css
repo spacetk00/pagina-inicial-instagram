@@ -127,9 +127,25 @@ body {
 
 /* media queries */
 
+@media (max-width: 1366px) {
+    .instagram-phone img {
+        height: 40rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .instagram-phone img {
+        height: 30rem;
+    }
+}
+
 @media (max-width: 1024px) {
     .instagram-wrapper {
         width: 90%;
+    }
+
+    .instagram-phone img {
+        height: 30rem;
     }
 }
 
@@ -140,6 +156,10 @@ body {
 
     .instagram-wrapper {
         width: 90%;
+    }
+
+    .instagram-phone img {
+        height: 40rem;
     }
 
     .instagram-phone {
